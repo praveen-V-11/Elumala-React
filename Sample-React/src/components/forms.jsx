@@ -9,8 +9,7 @@ export default function Forms() {
     console.log(name);
     console.log(email);
     console.log(chechbox);
-    
-    
+
   return (
     <div>
       <h1>Forms</h1>

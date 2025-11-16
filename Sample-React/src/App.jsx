@@ -6,6 +6,7 @@ import Darkmode from './components/Darkmode'
 import ListRendring from './components/ListRendring'
 import Forms from './components/forms'
 import Registraionform from './components/Registraionform'
+import Form2 from './components/form2'
 
 
 export default function App() {
@@ -18,7 +19,8 @@ export default function App() {
       {/* <Darkmode/> */}
       {/* <ListRendring/> */}
       {/* <Forms/> */}
-      <Registraionform/>
+      {/* <Registraionform/> */}
+      <Form2/>
 
     </div>
   )
