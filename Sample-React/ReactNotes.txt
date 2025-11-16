@@ -1,0 +1,86 @@
+
+Styleings in react js 
+
+1.Globel Styleings
+2.external Styleings
+3.inline Styleings
+4.object Styleings
+
+
+Event Handlers in React js 
+
+1.function with parameter
+2.function without parameter
+
+
+condtional Rendering 
+
+1. ternary Operater
+2. logical operater
+
+
+List Rendering 
+
+1.map 
+
+
+
+forms in react 
+
+
+
+
+
+
+components in React 
+
+1.function based components
+2.class based components
+
+
+
+
+Hooks in React 
+
+1.useState()
+2.useEffect()
+3.useRef()
+4.useContext()
+5.useMemo()
+6.usecallback()
+7.useReduser()
+
+
+
+
+React Router Dom 
+1.link
+2.useNaviagte
+2.useParames
+4.Uselocation
+5.Brower Router
+6.Route 
+7.Routes
+
+
+Axios in react js .
+
+1.post
+2.get
+3.put
+4.delete 
+
+
+
+Props in React js 
+
+
+
+
+
+
+
+
+
+
+
