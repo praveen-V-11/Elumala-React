@@ -43,7 +43,7 @@ components in React
 Hooks in React 
 
 1.useState()
-2.useEffect()
+2.useEffect() 
 3.useRef()
 4.useContext()
 5.useMemo()

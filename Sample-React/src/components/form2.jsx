@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import virtualdom from "../Images/virtualdom.png"
+
 export default function Form2() {
     let[name,setname] = useState('')
     let[email,setemail] = useState('')
@@ -15,6 +17,7 @@ console.log(email);
       <input type="text" onChange={(e)=>{setname(e.target.value)}}  value={name} />
       <label htmlFor="">Email</label>
       <input type="email" onChange={(e)=>{setemail(e.target.value)}}  value={email}/>
+      <img src={virtualdom} alt="" />
     </div>
   )
 }

@@ -7,7 +7,8 @@ import ListRendring from './components/ListRendring'
 import Forms from './components/forms'
 import Registraionform from './components/Registraionform'
 import Form2 from './components/form2'
-
+import UseEffectex from './components/useEffectex'
+import UseeffectApi from './components/UseeffectApi'
 
 export default function App() {
   return (
@@ -20,7 +21,9 @@ export default function App() {
       {/* <ListRendring/> */}
       {/* <Forms/> */}
       {/* <Registraionform/> */}
-      <Form2/>
+      {/* <Form2/> */}
+      {/* <UseEffectex/> */}
+      <UseeffectApi/>
 
     </div>
   )
