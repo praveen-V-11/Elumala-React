@@ -8,13 +8,24 @@ import Forms from './components/forms'
 import Registraionform from './components/Registraionform'
 import Form2 from './components/form2'
 import UseEffectex from './components/useEffectex'
-import UseeffectApi from './components/UseeffectApi'
 import Userefhook from './components/Userefhook'
 import Userefex2 from './components/Userefex2'
+import First from './Usecontextcomponent/first'
+
+
+export let pass = createContext()
+
 export default function App() {
+
+
+  let chocos = 'Give it to grandchild'
+
   return ( 
-      <div className='Main-div' >
-      <h1>App component</h1>
+    <pass.Provider value={chocos} >
+    <div className='Main-div' >
+      <h1> grand parent component</h1>
+      <h2>{chocos}</h2>
+      <First />
       {/* <h1>Homepage</h1> */}
       {/* <Login/> */}
       {/* <EventHandlers/> */}
@@ -29,5 +40,7 @@ export default function App() {
       {/* <Userefhook/> */}
       {/* <Userefex2/> */}
     </div>
+    </pass.Provider>
+      
   )
 }
