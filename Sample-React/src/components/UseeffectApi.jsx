@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from 'react'
-
 export default function UseeffectApi() {
     let [user,setuser] = useState([])
-
     async function Handleusers() {
         let res = await fetch('https://dummyjson.com/users')
         console.log(res);
-        
         let data = await res.json()
         console.log(data);
         setuser(data.users)
@@ -14,7 +11,6 @@ export default function UseeffectApi() {
     useEffect(()=>{
         Handleusers()
     },[])
-
     console.log(user);
   return (
     <div>
@@ -22,8 +18,9 @@ export default function UseeffectApi() {
       {user.map((use,ind)=>{
         return(
             <>
-            <h1 key={ind}>{use.firstName
-}</h1>
+            <div>
+              <h1 key={ind}>{use.firstName}</h1>  
+            </div>
             </>
         )
       })}

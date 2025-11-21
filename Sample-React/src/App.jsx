@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { createContext, useContext } from 'react'
 import Login from './components/Login'
 import EventHandlers from './components/EventHandlers'
 import ConditionalRendering from './components/ConditionalRendering'
@@ -9,11 +9,13 @@ import Registraionform from './components/Registraionform'
 import Form2 from './components/form2'
 import UseEffectex from './components/useEffectex'
 import UseeffectApi from './components/UseeffectApi'
-
+import Userefhook from './components/Userefhook'
+import Userefex2 from './components/Userefex2'
 export default function App() {
-  return (
-    <div>
-      <h1>Homepage</h1>
+  return ( 
+      <div className='Main-div' >
+      <h1>App component</h1>
+      {/* <h1>Homepage</h1> */}
       {/* <Login/> */}
       {/* <EventHandlers/> */}
       {/* <ConditionalRendering/> */}
@@ -23,8 +25,9 @@ export default function App() {
       {/* <Registraionform/> */}
       {/* <Form2/> */}
       {/* <UseEffectex/> */}
-      <UseeffectApi/>
-
+      {/* <UseeffectApi/> */}
+      {/* <Userefhook/> */}
+      {/* <Userefex2/> */}
     </div>
   )
 }
