@@ -52,15 +52,20 @@ Hooks in React
 
 
 
-
 React Router Dom 
-1.link
-2.useNaviagte
-2.useParames
-4.Uselocation
-5.Brower Router
-6.Route 
-7.Routes
+
+1.BrowerRouter
+2.Routes
+3.Route 
+4.link
+
+5.useNaviagte  
+
+6.useParames 
+7.Uselocation 
+
+
+
 
 
 Axios in react js .

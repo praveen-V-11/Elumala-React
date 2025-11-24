@@ -11,6 +11,12 @@ import UseEffectex from './components/useEffectex'
 import Userefhook from './components/Userefhook'
 import Userefex2 from './components/Userefex2'
 import First from './Usecontextcomponent/first'
+import Navbar from './RoutingComponents/Navbar'
+import {BrowserRouter,Routes ,Route} from 'react-router-dom'
+import Home from './RoutingComponents/Home'
+import About from './RoutingComponents/about'
+import Contact from './RoutingComponents/contact'
+import Sample from './RoutingComponents/sample'
 
 
 export let pass = createContext()
@@ -21,11 +27,23 @@ export default function App() {
   let chocos = 'Give it to grandchild'
 
   return ( 
-    <pass.Provider value={chocos} >
-    <div className='Main-div' >
-      <h1> grand parent component</h1>
-      <h2>{chocos}</h2>
-      <First />
+    // <pass.Provider value={chocos} >
+  <div  >
+    <BrowserRouter>
+  
+         <Navbar/>
+     <Routes>
+      <Route path='/'  element={<Home/>} />
+      <Route path='/about'  element={<About/>} />
+      <Route path='/contact'  element={<Contact/>} />
+     </Routes>
+    </BrowserRouter>
+      <Sample/>
+   
+
+      {/* <h1> grand parent component</h1> */}
+      {/* <h2>{chocos}</h2>  */}
+      {/* <First /> */}
       {/* <h1>Homepage</h1> */}
       {/* <Login/> */}
       {/* <EventHandlers/> */}
@@ -40,7 +58,7 @@ export default function App() {
       {/* <Userefhook/> */}
       {/* <Userefex2/> */}
     </div>
-    </pass.Provider>
+    //  </pass.Provider>
       
   )
 }
