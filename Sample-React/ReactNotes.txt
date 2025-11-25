@@ -29,6 +29,14 @@ forms in react
 
 
 
+Single page application
+
+1.Real Dom
+2.virtual Dom
+3.Reconsilation
+4.Diffing Algorithm
+
+
 
 
 
@@ -58,11 +66,11 @@ React Router Dom
 2.Routes
 3.Route 
 4.link
+5.useNaviagte
 
-5.useNaviagte  
 
 6.useParames 
-7.Uselocation 
+7.Uselocation
 
 
 
