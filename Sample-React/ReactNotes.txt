@@ -1,4 +1,22 @@
 
+1.what is React ?
+
+2.features Of React ?
+
+3.History Of React ? 
+
+4.Why React  is Libaray ? 
+
+5.what is FrameWork ? 
+
+
+6.D/w Libaray and FrameWork ?
+
+
+
+
+
+
 Styleings in react js 
 
 1.Globel Styleings
@@ -60,6 +78,7 @@ Hooks in React
 
 
 
+
 React Router Dom 
 
 1.BrowerRouter
@@ -67,17 +86,19 @@ React Router Dom
 3.Route 
 4.link
 5.useNaviagte
-
-
 6.useParames 
 7.Uselocation
 
 
 
+Dummy database in react 
+1.using Json
+
+npx json-server --watch db.json --port 2000
+
 
 
 Axios in react js .
-
 1.post
 2.get
 3.put

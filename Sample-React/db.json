@@ -1,0 +1,10 @@
+{
+    "users" : [
+        { "id": 1, "name": "Nivi" },
+        { "id": 2, "name": "Kaviya" }
+    ],
+    "products": [
+    { "id": 1, "title": "Burger", "price": 99 },
+    { "id": 2, "title": "Pizza", "price": 199 }
+  ]
+}

@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from 'react'
-import Login from './components/Login'
+// import Login from './components/Login'
 import EventHandlers from './components/EventHandlers'
 import ConditionalRendering from './components/ConditionalRendering'
 import Darkmode from './components/Darkmode'
@@ -12,53 +12,95 @@ import Userefhook from './components/Userefhook'
 import Userefex2 from './components/Userefex2'
 import First from './Usecontextcomponent/first'
 import Navbar from './RoutingComponents/Navbar'
-import {BrowserRouter,Routes ,Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './RoutingComponents/Home'
 import About from './RoutingComponents/about'
 import Contact from './RoutingComponents/contact'
 import Sample from './RoutingComponents/sample'
-
+import Login from './Useparams_uselocaion/Login'
+import Homepage from './Useparams_uselocaion/Homepage'
+import AxiosGet from './AxiosComponent/AxiosGet'
 
 export let pass = createContext()
 
 export default function App() {
 
 
-  let chocos = 'Give it to grandchild'
+  // let chocos = 'Give it to grandchild'
 
-  return ( 
-    // <pass.Provider value={chocos} >
-  <div  >
-    <BrowserRouter>
-  
-         <Navbar/>
-     <Routes>
-      <Route path='/'  element={<Home/>} />
+  return (
+      <div>
+        <BrowserRouter>
+        
+        <AxiosGet/>
+
+
+          {/* <Routes>
+            <Route path='/' element={<Login/>}/>
+            <Route path='/home/:id' element={<Homepage/>}/>
+          </Routes> */}
+        </BrowserRouter>
+      </div>
+    )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  <Sample />
+  { /* <Navbar/> */
+
+/* <Route path='/'  element={<Home/>} />
       <Route path='/about'  element={<About/>} />
-      <Route path='/contact'  element={<Contact/>} />
-     </Routes>
-    </BrowserRouter>
-      <Sample/>
+      <Route path='/contact'  element={<Contact/>} /> */}
+
+    // <pass.Provider value={chocos} >
+  // <div  >
+    
    
 
-      {/* <h1> grand parent component</h1> */}
-      {/* <h2>{chocos}</h2>  */}
-      {/* <First /> */}
-      {/* <h1>Homepage</h1> */}
-      {/* <Login/> */}
-      {/* <EventHandlers/> */}
-      {/* <ConditionalRendering/> */}
-      {/* <Darkmode/> */}
-      {/* <ListRendring/> */}
-      {/* <Forms/> */}
-      {/* <Registraionform/> */}
-      {/* <Form2/> */}
-      {/* <UseEffectex/> */}
-      {/* <UseeffectApi/> */}
-      {/* <Userefhook/> */}
-      {/* <Userefex2/> */}
-    </div>
+      {/* <h1> grand parent component</h1> */ }
+  {/* <h2>{chocos}</h2>  */ }
+  {/* <First /> */ }
+  {/* <h1>Homepage</h1> */ }
+  {/* <Login/> */ }
+  {/* <EventHandlers/> */ }
+  {/* <ConditionalRendering/> */ }
+  {/* <Darkmode/> */ }
+  {/* <ListRendring/> */ }
+  {/* <Forms/> */ }
+  {/* <Registraionform/> */ }
+  {/* <Form2/> */ }
+  {/* <UseEffectex/> */ }
+  {/* <UseeffectApi/> */ }
+  {/* <Userefhook/> */ }
+  {/* <Userefex2/> */ }
+    // </div>
     //  </pass.Provider>
       
-  )
+  
 }
